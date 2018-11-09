@@ -139,8 +139,21 @@ cd ~/JetPack
 
 2.3.5 **TX2 개발 보드**가 성공적으로 recovery mode로 전환됐을 경우 **Ubuntu 16.04** 가 설치된 **인텔 프로세서 기반 PC**에서 
 
-커맨드 창에 lsusb 입력시 **TX 개발 보드** 가 **
+커맨드 창에 lsusb 입력시 **TX 개발 보드**가 **NVidia Corp.** 로 잡히는 것을 확인하실 수 있습니다.
 
-![success](https://user-images.githubusercontent.com/35001605/48252224-816cc400-e447-11e8-823b-f71ab957deeb.png)
+![successsss](https://user-images.githubusercontent.com/35001605/48252417-0fe14580-e448-11e8-8d93-a59fd9114fbc.png)
+
+
+이후 아래의 커맨드 창에서 엔터를 입력합니다.
+
+![jetpack9](https://user-images.githubusercontent.com/35001605/48250277-1ae4a780-e441-11e8-8240-7699b11ee245.png)
+
+
+설치가 진행됩니다.
+
+![jetpack10](https://user-images.githubusercontent.com/35001605/48252522-5a62c200-e448-11e8-861f-8a7bd94fd9ef.png)
+
+
+
 
 
