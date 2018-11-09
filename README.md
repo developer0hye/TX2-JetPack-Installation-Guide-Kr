@@ -121,11 +121,8 @@ cd ~/JetPack
 
 
 2.3.1 TX2 의 전원을 종료합니다.(전원선 또한 뽑아주는 것이 좋습니다.)
-2.3.2 **USB Micro-B to USB A Cable**을 준비하고, USB A 커넥터를 **Ubuntu 16.04** 가 설치된 **인텔 프로세서 기반 PC**에
-
-연결하고 USB Micro-B 커넥터를 **TX2 개발 보드**에 연결합니다.
-
-
-2.3.3 전원선을 다시 TX2에 연결합니다.
-
+2.3.2 **USB Micro-B to USB A Cable**을 준비하고, USB A 커넥터를 **Ubuntu 16.04** 가 설치된 **인텔 프로세서 기반 PC**에 연결하고 USB Micro-B 커넥터를 **TX2 개발 보드**에 연결하고 전원선을 다시 TX2에 연결합니다.
+![usb to micro](https://user-images.githubusercontent.com/35001605/48250862-18834d00-e443-11e8-8bad-6b06bf06306c.jpg)
+![pc](https://user-images.githubusercontent.com/35001605/48250865-19b47a00-e443-11e8-89ce-a06c6adc8a61.jpg)
+![board](https://user-images.githubusercontent.com/35001605/48250866-1ae5a700-e443-11e8-88d0-b2e4f1e8f5b7.jpg)
 
