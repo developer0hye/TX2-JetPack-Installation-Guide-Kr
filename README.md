@@ -43,10 +43,11 @@
 * 설치전 선행 작업 및 준비물 필요
 
 ### 선행 작업 및 준비물
-* **마우스** 와 **키보드**를 꽂을 **USB 허브** (TX2 개발보드는 USB 포트가 하나이기 때문에 USB허브는 거의 필수 입니다.)
+* **마우스** 와 **키보드**를 꽂을 **USB 허브** (TX2 개발보드는 USB A 포트가 하나이기 때문에 USB허브는 거의 필수 입니다.)
 * **모니터** 및 **Hdmi**
-* **Ubuntu 16.04** 가 설치된 **인텔 프로세서 기반 PC**
-* **PC** 와 **TX2 개발 보드**를 한 네트워크에 연결하기 위한 공유기
+* **USB Micro-B to USB A Cable**
+* **Ubuntu 16.04** 가 설치된 **인텔 프로세서 기반 PC**(되도록 가상머신이 아닌 직접 설치하는 것을 추천합니다.)
+* **Ubuntu 16.04** 가 설치된 **인텔 프로세서 기반 PC** 와 **TX2 개발 보드**를 한 네트워크에 연결하기 위한 공유기
 
 1. TX2에 기본적으로 flash 되어있는 Ubuntu 16.04 설치
 
@@ -76,9 +77,9 @@ TX2 는 잠시 내버려두고 다음단계로 넘어가도록 합니다.
 
 ![jetpack3 3](https://user-images.githubusercontent.com/35001605/48245783-f59b6d80-e42f-11e8-88be-bb99fa084a77.png)
 
-2.1 위의 [링크](https://developer.nvidia.com/embedded/jetpack)를 들어간 뒤에 사진에 보라색 밑줄로 강조되어 있는 링크를 클릭하여 JetPack 3.3 파일(**JetPack-L4T-3.3-linux-x64_b39.run**)을 다운로드 받습니다.
+2.1 위의 [링크](https://developer.nvidia.com/embedded/jetpack)를 들어간 뒤에 사진에 보라색 밑줄로 강조되어 있는 링크를 클릭하여 JetPack 3.3 파일(**JetPack-L4T-3.3-linux-x64_b39.run**)을 다운로드 받습니다.(**다운로드를 위해 회원가입을 해야합니다.**)
+JetPack 3.3 은 기본적으로 CUDA Toolkit 9.0, cuDNN v7.1.5, OpenCV 3.3.1 을 지원합니다. 
 
-**다운로드를 위해 회원가입을 해야합니다.**
 
 2.2 아래의 커맨드를 순서대로 입력하여 **JetPack-L4T-3.3-linux-x64_b39.run** 파일을 옮기고 실행 가능하도록 
 권한을 설정합니다.
@@ -101,3 +102,30 @@ cd ~/JetPack
 ![jetpack 2](https://user-images.githubusercontent.com/35001605/48249006-e7a01980-e43c-11e8-9bfa-932c79879235.png)
 ![jepack3](https://user-images.githubusercontent.com/35001605/48249013-e969dd00-e43c-11e8-8c81-310e0360f6dc.png)
 ![jetpack4](https://user-images.githubusercontent.com/35001605/48249014-ea9b0a00-e43c-11e8-89ac-2b5a164aee24.png)
+![jetpack5](https://user-images.githubusercontent.com/35001605/48249840-9c3b3a80-e43f-11e8-907d-13e6cbed451b.png)
+
+이 단계까지 설치가 진행되었다면 **TX2 개발 보드** 와 **Ubuntu 16.04** 가 설치된 **인텔 프로세서 기반 PC**를 
+
+서로 동일한 내부 네트워크망에 연결 되도록 한 공유기에 물려줍니다. 이 후 계속해서 설치를 진행합니다.
+
+
+![jetpack6](https://user-images.githubusercontent.com/35001605/48250048-503cc580-e440-11e8-8c2d-f6fa27cbb616.png)
+![jetpack7](https://user-images.githubusercontent.com/35001605/48250102-82e6be00-e440-11e8-948d-19660d8c219d.png)
+![jetpack8](https://user-images.githubusercontent.com/35001605/48250232-f25cad80-e440-11e8-95cd-a1265659c67c.png)
+
+서로 동일한 내부 네트워크망에 성공적으로 연결이 되어있다면 위의 사진과 같이 장치가 인식된 모습을 볼 수 있습니다. 계속해서 설치를 진행하면
+
+아래의 창과 같이 안내문이 뜹니다.
+
+![jetpack9](https://user-images.githubusercontent.com/35001605/48250277-1ae4a780-e441-11e8-8240-7699b11ee245.png)
+
+
+2.3.1 TX2 의 전원을 종료합니다.(전원선 또한 뽑아주는 것이 좋습니다.)
+2.3.2 **USB Micro-B to USB A Cable**을 준비하고, USB A 커넥터를 **Ubuntu 16.04** 가 설치된 **인텔 프로세서 기반 PC**에
+
+연결하고 USB Micro-B 커넥터를 **TX2 개발 보드**에 연결합니다.
+
+
+2.3.3 전원선을 다시 TX2에 연결합니다.
+
+
