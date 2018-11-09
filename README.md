@@ -1,4 +1,4 @@
-# tx2-Jetpack-installation-guide-kr
+# TX2-JetPack-Installation-Guide-Kr
 
 ## TX 2
 ![tx2_module_170203_0017_transp_2000px](https://user-images.githubusercontent.com/35001605/48240171-24581a80-e415-11e8-838d-a77551b386b4.png)
