@@ -46,7 +46,7 @@
 * **마우스** 와 **키보드**를 꽂을 **USB 허브** (TX2 개발보드는 USB A 포트가 하나이기 때문에 USB허브는 거의 필수 입니다.)
 * **모니터** 및 **Hdmi**
 * **USB Micro-B to USB A Cable**
-* **Ubuntu 16.04** 가 설치된 **인텔 프로세서 기반 PC**(되도록 가상머신이 아닌 직접 설치하는 것을 추천합니다.)
+* **Ubuntu 16.04** 가 설치된 **인텔 프로세서 기반 PC**(가급적이면 가상머신이 아닌 직접 설치하는 것을 추천합니다.)
 * **Ubuntu 16.04** 가 설치된 **인텔 프로세서 기반 PC** 와 **TX2 개발 보드**를 한 네트워크에 연결하기 위한 공유기
 
 1. TX2에 기본적으로 flash 되어있는 Ubuntu 16.04 설치
@@ -113,16 +113,34 @@ cd ~/JetPack
 ![jetpack7](https://user-images.githubusercontent.com/35001605/48250102-82e6be00-e440-11e8-948d-19660d8c219d.png)
 ![jetpack8](https://user-images.githubusercontent.com/35001605/48250232-f25cad80-e440-11e8-95cd-a1265659c67c.png)
 
-서로 동일한 내부 네트워크망에 성공적으로 연결이 되어있다면 위의 사진과 같이 장치가 인식된 모습을 볼 수 있습니다. 계속해서 설치를 진행하면
+서로 동일한 내부 네트워크망에 성공적으로 연결이 되어있다면 위의 사진과 같이 장치가 인식된 모습을 볼 수 있습니다. 
 
-아래의 창과 같이 안내문이 뜹니다.
+계속해서 설치를 진행하면 아래의 창과 같은 안내문이 뜹니다.
 
 ![jetpack9](https://user-images.githubusercontent.com/35001605/48250277-1ae4a780-e441-11e8-8240-7699b11ee245.png)
 
 
 2.3.1 TX2 의 전원을 종료합니다.(전원선 또한 뽑아주는 것이 좋습니다.)
+
 2.3.2 **USB Micro-B to USB A Cable**을 준비하고, USB A 커넥터를 **Ubuntu 16.04** 가 설치된 **인텔 프로세서 기반 PC**에 연결하고 USB Micro-B 커넥터를 **TX2 개발 보드**에 연결하고 전원선을 다시 TX2에 연결합니다.
+
 ![usb to micro](https://user-images.githubusercontent.com/35001605/48250862-18834d00-e443-11e8-8bad-6b06bf06306c.jpg)
 ![pc](https://user-images.githubusercontent.com/35001605/48250865-19b47a00-e443-11e8-89ce-a06c6adc8a61.jpg)
 ![board](https://user-images.githubusercontent.com/35001605/48250866-1ae5a700-e443-11e8-88d0-b2e4f1e8f5b7.jpg)
+
+2.3.3 POWER 버튼을 누르고 빛의 속도로 FORCE RECOVERY 버튼을 꾹 눌러줍니다.
+
+2.3.4 FORCE RECOVERY 버튼을 계속 누른 상태로 RESET 버튼을 누르고 뗍니다. 2초 정도 대기한 후 FORCE RECOVERY 버튼에서 손을 뗍니다.
+
+![recoverymode](https://user-images.githubusercontent.com/35001605/48252005-dd831880-e446-11e8-8ddb-4985dc4d7511.gif)
+
+
+좌측에서 첫 번째에 위치한 버튼이 RESET 버튼이며, 세 번째 버튼이 FORCE RECOVERY 버튼, 네 번째 버튼이 POWER  버튼입니다.
+
+2.3.5 **TX2 개발 보드**가 성공적으로 recovery mode로 전환됐을 경우 **Ubuntu 16.04** 가 설치된 **인텔 프로세서 기반 PC**에서 
+
+커맨드 창에 lsusb 입력시 **TX 개발 보드** 가 **
+
+![success](https://user-images.githubusercontent.com/35001605/48252224-816cc400-e447-11e8-823b-f71ab957deeb.png)
+
 
