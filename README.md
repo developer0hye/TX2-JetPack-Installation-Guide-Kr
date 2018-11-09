@@ -78,6 +78,7 @@ TX2 는 잠시 내버려두고 다음단계로 넘어가도록 합니다.
 ![jetpack3 3](https://user-images.githubusercontent.com/35001605/48245783-f59b6d80-e42f-11e8-88be-bb99fa084a77.png)
 
 2.1 위의 [링크](https://developer.nvidia.com/embedded/jetpack)를 들어간 뒤에 사진에 보라색 밑줄로 강조되어 있는 링크를 클릭하여 JetPack 3.3 파일(**JetPack-L4T-3.3-linux-x64_b39.run**)을 다운로드 받습니다.(**다운로드를 위해 회원가입을 해야합니다.**)
+
 JetPack 3.3 은 기본적으로 CUDA Toolkit 9.0, cuDNN v7.1.5, OpenCV 3.3.1 을 지원합니다. 
 
 
@@ -128,9 +129,9 @@ cd ~/JetPack
 ![pc](https://user-images.githubusercontent.com/35001605/48250865-19b47a00-e443-11e8-89ce-a06c6adc8a61.jpg)
 ![board](https://user-images.githubusercontent.com/35001605/48250866-1ae5a700-e443-11e8-88d0-b2e4f1e8f5b7.jpg)
 
-2.3.3 POWER 버튼을 누르고 빛의 속도로 FORCE RECOVERY 버튼을 꾹 눌러줍니다.
+2.3.3 **POWER 버튼**을 누르고 빛의 속도로 **FORCE RECOVERY** 버튼을 꾹 눌러줍니다.
 
-2.3.4 FORCE RECOVERY 버튼을 계속 누른 상태로 RESET 버튼을 누르고 뗍니다. 2초 정도 대기한 후 FORCE RECOVERY 버튼에서 손을 뗍니다.
+2.3.4 **FORCE RECOVERY** 버튼을 계속 누른 상태로 **RESET** 버튼을 누르고 뗍니다. 2초 정도 대기한 후 **FORCE RECOVERY** 버튼에서 손을 뗍니다.
 
 ![recoverymode](https://user-images.githubusercontent.com/35001605/48252005-dd831880-e446-11e8-8ddb-4985dc4d7511.gif)
 
@@ -152,7 +153,6 @@ cd ~/JetPack
 설치가 진행됩니다.
 
 ![jetpack10](https://user-images.githubusercontent.com/35001605/48252522-5a62c200-e448-11e8-861f-8a7bd94fd9ef.png)
-
 
 
 
