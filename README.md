@@ -156,6 +156,8 @@ cd ~/JetPack
 
 ![finish](https://user-images.githubusercontent.com/35001605/48253807-93e8fc80-e44b-11e8-8426-3ee2b0b662cb.png)
 
+![realfinshed](https://user-images.githubusercontent.com/35001605/48253955-f215df80-e44b-11e8-8122-87a2fa568491.png)
+
 설치가 완료되었습니다!
 
 이제 TX2 와 즐거운 시간을 보내시면 됩니다.
