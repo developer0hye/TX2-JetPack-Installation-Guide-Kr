@@ -61,7 +61,7 @@
  sudo ./installer.sh
  password:nvidia
  ```
-**기본적으로 설정된 유저 id와 password는 id: nvdia/ pw: nvidia 입니다.**
+**기본적으로 설정된 유저 id와 password는 id: nvidia/ pw: nvidia 입니다.**
 **password 는 입력하더라도 화면에 출력되지 않습니다. 혼란스러워 하지 마시고 올바르게 nvidia 입력 후 엔터를 입력하면 됩니다.**
  
  설치가 완료된 후 재부팅을 실행합니다.
