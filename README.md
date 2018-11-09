@@ -46,7 +46,11 @@
 * **Ubuntu 16.04** 가 설치된 **인텔 프로세서 기반 PC**
 * **PC** 와 **TX2 개발 보드**를 한 네트워크에 연결하기 위한 공유기
 
-**1. **Ubuntu 16.04** 가 설치된 **인텔 프로세서 기반 PC**에 JetPack 을 설치합니다.
+1. TX2에 기본적으로 flash 되어있는 Ubuntu 16.04 설치
+ 1.1 우선 TX2에 전원을 넣기 전에 TX2 를 컨트롤 하기 위해 USB 허브를 TX2에 꽂습니다.
+
+
+2. **Ubuntu 16.04** 가 설치된 **인텔 프로세서 기반 PC**에 JetPack 을 설치합니다.
 
 >[JetPack 3.3 설치 링크](https://developer.nvidia.com/embedded/jetpack)
 
