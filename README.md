@@ -30,6 +30,7 @@
 **TX2 모듈** 자체의 크기는 **(50mm x 87mm)** 로 그리 크지 않지만 **TX2 개발 보드**의 크기는 **(17cm x 17cm)** 으로 상당히 크다.
 
 ![20181109_100614](https://user-images.githubusercontent.com/35001605/48244426-0dbbbe80-e429-11e8-836a-c2ef39ffcb95.jpg)
+
 ## JetPack
 ![jetpack_falcon](https://user-images.githubusercontent.com/35001605/48244860-3c3a9900-e42b-11e8-8689-c490225d0fea.jpg)
 ~~JetPack 은 사실 하늘을 날기 위한 수단~~ 
@@ -49,11 +50,11 @@
 
 1. TX2에 기본적으로 flash 되어있는 Ubuntu 16.04 설치
 
-  1.1 우선 TX2에 전원을 넣기 전에 USB 허브를 TX2에 연결하고 마우스와 키보드, 모니터의 Hdmi 를 연결합니다.
+1.1. 우선 TX2에 전원을 넣기 전에 USB 허브를 TX2에 연결하고 마우스와 키보드, 모니터의 Hdmi 를 연결합니다.
   
-  1.2 TX2에 전원을 넣습니다.
+1.2. TX2에 전원을 넣습니다.
  
-  1.3 화면에 출력된 안내문에 따라 순서대로 커맨드를 입력하여 줍니다.
+1.3. 화면에 출력된 안내문에 따라 순서대로 커맨드를 입력하여 줍니다.
  ```
  cd ~/NVIDIA-INSTALLER/
  sudo ./installer.sh
