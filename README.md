@@ -112,9 +112,12 @@ cd ~/JetPack
 
 ![jetpack6](https://user-images.githubusercontent.com/35001605/48250048-503cc580-e440-11e8-8c2d-f6fa27cbb616.png)
 ![jetpack7](https://user-images.githubusercontent.com/35001605/48250102-82e6be00-e440-11e8-948d-19660d8c219d.png)
-![jetpack8](https://user-images.githubusercontent.com/35001605/48250232-f25cad80-e440-11e8-95cd-a1265659c67c.png)
 
 서로 동일한 내부 네트워크망에 성공적으로 연결이 되어있다면 위의 사진과 같이 장치가 인식된 모습을 볼 수 있습니다. 
+
+![jetpack8](https://user-images.githubusercontent.com/35001605/48250232-f25cad80-e440-11e8-95cd-a1265659c67c.png)
+
+
 
 계속해서 설치를 진행하면 아래의 창과 같은 안내문이 뜹니다.
 
