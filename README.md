@@ -27,7 +27,7 @@
 
 위는 TX2 를 이용하여 개발을 할 수 있도록 제공되는 TX2 Developer Kit(개발자 키트)의 구성입니다.
 
-**TX2 모듈** 자체의 크기는 **(50mm x 87mm)** 로 그리 크지 않지만 **TX2 개발 보드**의 크기는 **(17cm x 17cm)** 으로 상당히 큽니다.
+**TX2 모듈** 자체의 크기는 **(50mm x 87mm)** 로 그리 크지 않지만 **TX2 개발 보드**의 크기는 **(170mm x 170mm)** 으로 상당히 큽니다.
 
 ![20181109_100614](https://user-images.githubusercontent.com/35001605/48244426-0dbbbe80-e429-11e8-836a-c2ef39ffcb95.jpg)
 
@@ -143,7 +143,7 @@ cd ~/JetPack
 
 2.3.5 **TX2 개발 보드**가 성공적으로 recovery mode로 전환됐을 경우 **Ubuntu 16.04** 가 설치된 **인텔 프로세서 기반 PC**에서 
 
-커맨드 창에 lsusb 입력시 **TX 개발 보드**가 **NVidia Corp.** 로 잡히는 것을 확인하실 수 있습니다.
+커맨드 창에 lsusb 입력시 **TX2 개발 보드**가 **NVidia Corp.** 로 잡히는 것을 확인하실 수 있습니다.
 
 ![successsss](https://user-images.githubusercontent.com/35001605/48252417-0fe14580-e448-11e8-8d93-a59fd9114fbc.png)
 
