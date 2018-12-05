@@ -46,8 +46,8 @@
 * **마우스** 와 **키보드**를 연결할 **USB 허브** (TX2 개발보드는 USB A 포트가 하나이기 때문에 USB허브는 거의 필수 입니다.)
 * **모니터** 및 **HDMI**
 * **USB Micro-B to USB A Cable**
-* **Ubuntu 16.04** 가 설치된 **인텔 프로세서 기반 PC**(가급적이면 가상머신이 아닌 직접 설치하는 것을 추천합니다.)
-* **Ubuntu 16.04** 가 설치된 **인텔 프로세서 기반 PC** 와 **TX2 개발 보드**를 동일한 내부 네트워크망에 연결하기 위한 공유기
+* **Ubuntu 16.04** 가 설치된 **x86-64 프로세서 PC**(가급적이면 가상머신이 아닌 직접 설치하는 것을 추천합니다.)
+* **Ubuntu 16.04** 가 설치된 **x86-64 프로세서 기반 PC** 와 **TX2 개발 보드**를 동일한 내부 네트워크망에 연결하기 위한 공유기
 
 1. TX2에 기본적으로 flash 되어있는 Ubuntu 16.04 설치
 
@@ -71,7 +71,7 @@
 
 TX2 는 잠시 내버려두고 다음단계로 넘어가도록 합니다.
 
-2. **Ubuntu 16.04** 가 설치된 **인텔 프로세서 기반 PC**에 JetPack 을 설치합니다.
+2. **Ubuntu 16.04** 가 설치된 **x86-64 프로세서 기반 PC**에 JetPack 을 설치합니다.
 
 >[JetPack 3.3 설치 링크](https://developer.nvidia.com/embedded/jetpack)
 
@@ -105,7 +105,7 @@ cd ~/JetPack
 ![jetpack4](https://user-images.githubusercontent.com/35001605/48249014-ea9b0a00-e43c-11e8-89ac-2b5a164aee24.png)
 ![jetpack5](https://user-images.githubusercontent.com/35001605/48249840-9c3b3a80-e43f-11e8-907d-13e6cbed451b.png)
 
-이 단계까지 설치가 진행되었다면 **TX2 개발 보드** 와 **Ubuntu 16.04** 가 설치된 **인텔 프로세서 기반 PC**를 
+이 단계까지 설치가 진행되었다면 **TX2 개발 보드** 와 **Ubuntu 16.04** 가 설치된 **x86-64 프로세서 기반 PC**를 
 
 서로 동일한 내부 네트워크망에 연결 되도록 한 공유기에 물려줍니다. 이 후 계속해서 설치를 진행합니다.
 
@@ -126,7 +126,7 @@ cd ~/JetPack
 
 2.3.1 TX2 의 전원을 종료합니다.(전원선 또한 뽑아주는 것이 좋습니다.)
 
-2.3.2 **USB Micro-B to USB A Cable**을 준비하고, USB A 커넥터를 **Ubuntu 16.04** 가 설치된 **인텔 프로세서 기반 PC**에 연결하고 USB Micro-B 커넥터를 **TX2 개발 보드**에 연결하고 전원선을 다시 TX2에 연결합니다.
+2.3.2 **USB Micro-B to USB A Cable**을 준비하고, USB A 커넥터를 **Ubuntu 16.04** 가 설치된 **x86-64 프로세서 기반 PC**에 연결하고 USB Micro-B 커넥터를 **TX2 개발 보드**에 연결하고 전원선을 다시 TX2에 연결합니다.
 
 ![usb to micro](https://user-images.githubusercontent.com/35001605/48250862-18834d00-e443-11e8-8bad-6b06bf06306c.jpg)
 ![pc](https://user-images.githubusercontent.com/35001605/48250865-19b47a00-e443-11e8-89ce-a06c6adc8a61.jpg)
@@ -141,7 +141,7 @@ cd ~/JetPack
 
 좌측에서 첫 번째에 위치한 버튼이 RESET 버튼이며, 세 번째 버튼이 FORCE RECOVERY 버튼, 네 번째 버튼이 POWER  버튼입니다.
 
-2.3.5 **TX2 개발 보드**가 성공적으로 recovery mode로 전환됐을 경우 **Ubuntu 16.04** 가 설치된 **인텔 프로세서 기반 PC**에서 
+2.3.5 **TX2 개발 보드**가 성공적으로 recovery mode로 전환됐을 경우 **Ubuntu 16.04** 가 설치된 **x86-64 프로세서 기반 PC**에서 
 
 커맨드 창에 lsusb 입력시 **TX2 개발 보드**가 **NVidia Corp.** 로 잡히는 것을 확인하실 수 있습니다.
 
